@@ -14,3 +14,5 @@ And then after everything is added to the set, the code prints a .txt doc with w
 The end result being a super long list of all the items in any number of bundles that you want. For what I'm looking to do, it would be so slow that every time I wanted to test my next project’s code it would need to open a page and scroll to the bottom. Since the items in the bundle are static and don't change. I can use a txt file full of URLs to go straight to the items store pages and then continue from there.
 
 Again i'm super new to coding. I love learning more about this stuff and if anything is wrong or needs to be fixed feel free to let me know @mummifiedtony on twitter
+
+Made with Spyder (python 3.9)
