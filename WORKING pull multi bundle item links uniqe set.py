@@ -13,6 +13,13 @@ bundle_urls = [
     "https://itch.io/b/1405/queer-games-bundle-2022-pay-what-you-can-edition",
     "https://itch.io/b/1753/ttrpgs-for-trans-rights-in-florida",
     "https://itch.io/b/1805/trkiye-syria-earthquake-relief-mega-bundle",
+    "https://itch.io/b/1813/queer-games-bundle-2023-pay-what-you-can-edition",
+    "https://itch.io/b/2047/queer-halloween-stories-bundle-2023-10-treat-edition",
+    "https://itch.io/b/2120/games-for-gaza",
+    "https://itch.io/b/2321/palestinian-relief-bundle",
+    "https://itch.io/b/2383/ttrpgs-for-trans-rights-west-virginia",
+    "https://itch.io/b/3110/no-ice-in-california",
+    "https://itch.io/bundle/download/K1CKR6EtBgOjnzdoypyWnhxLZozlQUEMTWQ18I7s",
     # Add more URLs for additional pages
 ]
 
@@ -49,4 +56,5 @@ driver.quit()
 # Save the unique item links to a plain text document
 with open("unique_item_links.txt", "w", encoding="utf-8") as file:
     for link in all_item_links:
+
         file.write(link + "\n")
