@@ -19,7 +19,7 @@ bundle_urls = [
     "https://itch.io/b/2321/palestinian-relief-bundle",
     "https://itch.io/b/2383/ttrpgs-for-trans-rights-west-virginia",
     "https://itch.io/b/3110/no-ice-in-california",
-    "https://itch.io/bundle/download/K1CKR6EtBgOjnzdoypyWnhxLZozlQUEMTWQ18I7s",
+    "https://itch.io/b/3063/queer-games-bundle-2025-pay-what-you-can-edition",
     # Add more URLs for additional pages
 ]
 
@@ -58,3 +58,4 @@ with open("unique_item_links.txt", "w", encoding="utf-8") as file:
     for link in all_item_links:
 
         file.write(link + "\n")
+
